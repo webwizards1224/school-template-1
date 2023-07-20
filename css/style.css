@@ -95,6 +95,7 @@ h4,
 .display-6 {
     font-family: 'Lobster Two', cursive;
     font-weight: 700;
+    text-wrap: wrap;
 }
 
 h5,
