@@ -196,6 +196,10 @@ h6,
     bottom: 0;
     background: url(../img/bg-header-bottom.png) center center repeat-x;
 }
+.img-fluid {
+    max-width: 75%;
+    height: auto;
+}
 
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
@@ -218,6 +222,10 @@ h6,
     .header-carousel .owl-carousel-item h1 {
         font-size: 30px;
         font-weight: 600;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
     }
 }
 
